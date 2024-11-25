@@ -1,0 +1,52 @@
+#game-area{
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    height: 500px !important;
+    position: relative;
+    width: 500px !important;
+}
+.Personaje{
+    height: 50px;
+    position: absolute;
+    width: 50px;
+}
+#Player {
+    background-color: rebeccapurple;
+    
+}
+#Beyonce{
+    background-image: url(assets/Beyonce-GRAMMY-Awards-102022-76d995d704b74936a5d308e412fabc0a.webp);
+    background-size: cover;
+}
+body
+{
+    display: flex;
+    padding: 1rem;
+}
+.container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    .container {
+        height: 100%;
+    }
+    #game-area {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
